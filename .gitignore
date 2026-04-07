@@ -1,3 +1,18 @@
-f1_cache/
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+
+# Python / Virtual Environment
+.venv/
 __pycache__/
-*.json
+*.pyc
+
+# Build Artifacts & Data
+*.zip
+telemetry.json
+f1_cache/
+
+# Mac OS
+.DS_Store
